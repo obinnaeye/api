@@ -25,7 +25,7 @@ function NotesApplication(author)
  	}
  }
 
-
+// This function creates the note list
  NotesApplication.prototype.listNotes = function()
   {
     for( i = 0; i < this.notes.length; i++)
@@ -37,6 +37,7 @@ function NotesApplication(author)
       console.log("");
     }
   }
+// This function takes a note_id which refers to the index of the note in the notes list and returns the content of that note as a string.
 
   NotesApplication.prototype.get = function(note_id)
   {
