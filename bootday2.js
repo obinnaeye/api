@@ -15,13 +15,13 @@ function NotesApplication(author)
 // This function accepts notes and adds it to the list
  NotesApplication.prototype.create = function(note_content)
  {
- 	if(typeof(note_content) == typeof("you"))
+ 	if(typeof(note_content) == typeof("obi"))
  	{
     this.notes.push(note_content);
  	}
  	else
  	{
- 		return "That type is invalid. Try again";
+ 		return "Note content should be strigs. Try again";
  	}
  }
 
