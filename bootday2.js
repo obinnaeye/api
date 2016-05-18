@@ -54,7 +54,7 @@ function NotesApplication(author)
 // This function take a search string, search_text and returns all the notes with that text within it
   NotesApplication.prototype.search =  function(search_text)
   {
-  	if(typeof(search_text) == typeof("you"))
+  	if(typeof(search_text) == typeof("obi"))
   	{
     var found = [];
 
