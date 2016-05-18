@@ -93,6 +93,8 @@ function NotesApplication(author)
   	}
   }
 
+//  This function replaces the content in the note at note_id with new_content.
+
   NotesApplication.prototype.edit = function(note_id, new_content)
   {
   	if(typeof(new_content) == typeof("you") && typeof(note_id) == typeof(0))
