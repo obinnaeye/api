@@ -75,7 +75,7 @@ function NotesApplication(author)
   	}
   	else
   	{
-  		return "The search has to be for a string. Please try again";
+  		return "Search item should be string. Please try again";
   	}
   }
 
