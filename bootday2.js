@@ -79,6 +79,8 @@ function NotesApplication(author)
   	}
   }
 
+// This function deletes the note at the index note_id of the notes list.
+
   NotesApplication.prototype.deletenote =  function (note_id)
   {
   	if(typeof(note_content) == typeof(0))
