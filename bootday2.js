@@ -2,8 +2,9 @@
 // This is a functional part of a note taking app.
 // The function should accept the author of the note and the note content.
 // It then creates a list of the notes taken so far.
-// The us
+// The user should be able to retrieve any note and also search for a content in the note list
 
+// This is the main function (the class)
 function NotesApplication(author)
 {
   this.author = author;
@@ -11,6 +12,7 @@ function NotesApplication(author)
 
 }
 
+// This function accepts notes and adds it to the list
  NotesApplication.prototype.create = function(note_content)
  {
  	if(typeof(note_content) == typeof("you"))
@@ -22,6 +24,7 @@ function NotesApplication(author)
  		return "That type is invalid. Try again";
  	}
  }
+
 
  NotesApplication.prototype.listNotes = function()
   {
