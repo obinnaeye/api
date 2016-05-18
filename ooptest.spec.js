@@ -4,6 +4,6 @@ var app = new NotesApplication();
 
 describe("Author's Name", function(){
 	it('Should return the Name of Author', function(){
-		expect(NotesApplication(Author)).toBe("Author");
+		expect(NotesApplication("Author")).toBe("Author");
 	});
 });
