@@ -20,5 +20,9 @@ describe("Author's Name", function(){
 		expect(typeof(NotesApplication.prototype.edit)).toBe(typeof(function(){}));
 	})
 
+	it('Should be a function: deletenote', function(){
+		expect(typeof(NotesApplication.prototype.edit)).toBe(typeof(function(){}))
+	})
+
 	
 });
