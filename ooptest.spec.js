@@ -24,5 +24,9 @@ describe("Author's Name", function(){
 		expect(typeof(NotesApplication.prototype.edit)).toBe(typeof(function(){}))
 	})
 
+	it('Should accept only integer: get', function(){
+		expect(NotesApplication.prototype.search("obi")).toBe("That type is invalid. index hs to be an integer value, try again.")
+	})
+
 	
 });
