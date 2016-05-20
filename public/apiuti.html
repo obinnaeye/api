@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello jQuery</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="hello.js"></script>
+        <script>
+
+        window.addEventListener("load",function(){
+            var cb = {
+                data: function(){
+                    var a = document.getElementById("getsm")
+                }
+            }
+
+        },false)
+        
+document.getElementById("demo").innerHTML = dollar(77);
+</script>        
+
+
+    </head>
+
+    <body>
+        <div>
+            <p class="current1" id="cur">Time Stamp: </p>
+            <p class="class" id="cl">Currency Class: </p>
+            <p class="austra" id="au">Austra Dollar: </p>
+            
+        </div>
+        <form>
+            Austra Dollar:
+            <br>
+            <input type="number" name="austrado">
+            <br>
+            
+            <input type="submit" value="Submit" id="getsm">
+        </form>
+        <p id="demo"></p>
+    </body>
+</html>
